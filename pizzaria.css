@@ -1,0 +1,88 @@
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 53px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    border-bottom: 3px solid red;
+}
+h2 {
+    text-align: center;
+}
+dt{
+    font-color: black;
+}
+body {
+    margin: 0;
+}
+img{
+    position: center;
+    margin: 15px;
+    height:300px; 
+    width:300px;
+    max-width: 100%;
+}
+/*borda do menu pizza*/
+div.cardapio{
+    border-style: inset;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    margin-left: 5px;
+}
+/*borda do menu promo*/
+div.promocao{
+    border-style: inset;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    margin-left: 5px;
+}
+/*borda do menu info*/
+div.info{
+    border-style: inset;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    margin-left: 5px;
+}
+/*espaço entre escrita*/
+dl{
+    padding: 10px;
+}
+/*formatacao do nome da pizza*/
+dt{
+    padding: 10px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 20px;
+}
+/*formatacao dos ingredientes da pizza*/
+dd{
+
+    font-style: italic;
+    font-family: "Times New Roman";
+    font-weight: normal;
+    font-size: 13px;
+}    
